@@ -54,7 +54,7 @@ namespace workWithXML
                     XPathNodeIterator itAdress = it.Current.Select("address/@value");
 
                     //
-                    //reading name of all banks and they adress
+                    //reading and writing name of all banks and they adress
                     itName.MoveNext();
                     itAdress.MoveNext();
                     Console.WriteLine($"{itName.Current.Value}\t\t{itAdress.Current.Value}");
@@ -65,7 +65,7 @@ namespace workWithXML
 
 
                     //
-                    //reading exchange rate
+                    //reading and writing exchange rate
                     writer.WriteStartElement("currencies");
                     while (itID.MoveNext())
                     {
@@ -74,7 +74,6 @@ namespace workWithXML
                         itBR.MoveNext();
                         itAR.MoveNext();
                         Console.WriteLine($"{itID.Current.Value}\t{itBR.Current.Value}\t{itAR.Current.Value}");
-                        //writer.WriteElementString("c", itName.Current.Value,"value");
                         writer.WriteAttributeString("id",itID.Current.Value);
                         writer.WriteAttributeString("br", itBR.Current.Value);
                         writer.WriteAttributeString("ar", itAR.Current.Value);
@@ -112,6 +111,7 @@ namespace workWithXML
                     itName.MoveNext();
                     itAdress.MoveNext();
                     Console.WriteLine($"{itName.Current.Value}\t\t{itAdress.Current.Value}");
+
                     //
                     //reading exchange rate
                     while (itID.MoveNext())
@@ -132,53 +132,6 @@ namespace workWithXML
             Console.ReadLine();
         }
             
-        //    XmlTextReader read = null;
-        //    try
-        //    {
-        //        // Load the reader with the data file and ignore all white space nodes.       
-        //        read = new XmlTextReader(filename);
-        //        read.WhitespaceHandling = WhitespaceHandling.None;
-        //        while (read.Read())
-        //        {
-        //            // Parse the file and display each of the nodes.
-        //            if (read.NodeType == XmlNodeType.Element &&
-        //        read.Name == "title" )
-        //            {
-        //    //            Console.WriteLine($"Bank:  {read.} ");
-        //            }
-        //        }
-        //    }
-
-        //    finally
-        //    {
-        //        if (read != null)
-        //            read.Close();
-        //    }
-
-
-
-        //    XmlDocument doc = new XmlDocument();
-        //    doc.Load(filename);
-        //    OutputNode(doc.DocumentElement);
-        //}
-        //static void OutputNode(XmlNode node)
-        //{
-        ////    Console.WriteLine($"NodeType\t{node.NodeType}\nnode Value\t{node.Value}\nnode Name\t{node.Name}");
-        //    if(node.Attributes != null)
-        //    {
-        //        foreach(XmlAttribute attr in node.Attributes)
-        //        {
-        //            Console.WriteLine($"NodeType\t{node.NodeType}\nnode Value\t{node.Value}\nnode Name\t{node.Name}");
-        //        }
-        //    }
-        //    if (node.HasChildNodes)
-        //        foreach(XmlNode el in node.ChildNodes)
-        //        {
-        //            OutputNode(el);
-        //        }
-        //}
-
-
     }
 
 }
