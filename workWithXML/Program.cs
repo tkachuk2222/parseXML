@@ -69,10 +69,18 @@ namespace workWithXML
                     writer.WriteStartElement("currencies");
                     while (itID.MoveNext())
                     {
+                        writer.WriteStartElement("c");
+
                         itBR.MoveNext();
                         itAR.MoveNext();
                         Console.WriteLine($"{itID.Current.Value}\t{itBR.Current.Value}\t{itAR.Current.Value}");
-                        //writer.WriteElementString("c", itName.Current.Value);
+                        //writer.WriteElementString("c", itName.Current.Value,"value");
+                        writer.WriteAttributeString("id",itID.Current.Value);
+                        writer.WriteAttributeString("br", itBR.Current.Value);
+                        writer.WriteAttributeString("ar", itAR.Current.Value);
+
+                        writer.WriteEndElement();
+
                     }
                     writer.WriteEndElement();
 
