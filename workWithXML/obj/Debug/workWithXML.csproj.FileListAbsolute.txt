@@ -1,0 +1,19 @@
+c:\users\temp.it-step.000\documents\visual studio 2015\Projects\workWithXML\workWithXML\bin\Debug\workWithXML.exe.config
+E:\workWithXML\workWithXML\bin\Debug\workWithXML.exe.config
+E:\workWithXML\workWithXML\bin\Debug\workWithXML.exe
+E:\workWithXML\workWithXML\bin\Debug\workWithXML.pdb
+E:\workWithXML\workWithXML\obj\Debug\workWithXML.csprojResolveAssemblyReference.cache
+E:\workWithXML\workWithXML\obj\Debug\workWithXML.exe
+E:\workWithXML\workWithXML\obj\Debug\workWithXML.pdb
+G:\workWithXML\workWithXML\bin\Debug\workWithXML.exe.config
+G:\workWithXML\workWithXML\obj\Debug\workWithXML.exe
+G:\workWithXML\workWithXML\obj\Debug\workWithXML.pdb
+G:\workWithXML\workWithXML\bin\Debug\workWithXML.exe
+G:\workWithXML\workWithXML\bin\Debug\workWithXML.pdb
+G:\workWithXML\workWithXML\obj\Debug\workWithXML.csprojResolveAssemblyReference.cache
+D:\навчання\c#\шаг\xml\workWithXML\workWithXML\bin\Debug\workWithXML.exe.config
+D:\навчання\c#\шаг\xml\workWithXML\workWithXML\obj\Debug\workWithXML.exe
+D:\навчання\c#\шаг\xml\workWithXML\workWithXML\obj\Debug\workWithXML.pdb
+D:\навчання\c#\шаг\xml\workWithXML\workWithXML\bin\Debug\workWithXML.exe
+D:\навчання\c#\шаг\xml\workWithXML\workWithXML\bin\Debug\workWithXML.pdb
+D:\навчання\c#\шаг\xml\workWithXML\workWithXML\obj\Debug\workWithXML.csprojResolveAssemblyReference.cache
